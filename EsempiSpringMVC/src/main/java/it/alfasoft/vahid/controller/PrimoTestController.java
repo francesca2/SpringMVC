@@ -7,10 +7,13 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class PrimoTestController {
 	
-	@RequestMapping("/primo")
+	@RequestMapping("/primo.php")
 	public ModelAndView ilMiotodoPrimo(){
 		
-		ModelAndView model=new ModelAndView("TestView1");
+		ModelAndView model=new ModelAndView("primoEsempio/TestView1");
+		
+		model.addObject("msg", "benvenuto !!!");
+		
 		return model;
 		
 	}
