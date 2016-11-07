@@ -1,4 +1,4 @@
-package it.alfasoft.vahid.model;
+package it.alfasoft.francescamodel;
 
 public class Indirizzo {
 	private String citta;

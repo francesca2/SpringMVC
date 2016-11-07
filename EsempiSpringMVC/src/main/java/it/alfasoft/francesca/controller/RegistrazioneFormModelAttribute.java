@@ -1,6 +1,6 @@
-package it.alfasoft.vahid.controller;
+package it.alfasoft.francesca.controller;
 
-import it.alfasoft.vahid.model.Cliente;
+import it.alfasoft.francescamodel.Cliente;
 
 import java.util.Map;
 
@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class RegistrzaioneFormModelAttribute {
+public class RegistrazioneFormModelAttribute {
 
 	
 	@RequestMapping(value="/formCliente_2.html",method=RequestMethod.GET)
 	public ModelAndView chidereForm(){
 		
-		ModelAndView model=new ModelAndView("RegistrazioneModelAttribute/RegistrzaioneFormModelAttribute");
+		ModelAndView model=new ModelAndView("RegistrazioneModelAttribute/RegistrazioneFormModelAttribute");
 		
 		return  model;
 	}
@@ -42,8 +42,7 @@ public class RegistrzaioneFormModelAttribute {
 		}
 		
 		ModelAndView model=new ModelAndView("RegistrazioneModelAttribute/HomePageCliente");
-
-		  
+  
 		return  model;
 		
 	}
@@ -51,8 +50,6 @@ public class RegistrzaioneFormModelAttribute {
 	
 @ModelAttribute	
 public Model OggettoComune(Model model){
-		
-		
 
 	    model.addAttribute("headerMessage", "Alfasoft");
 		return  model;

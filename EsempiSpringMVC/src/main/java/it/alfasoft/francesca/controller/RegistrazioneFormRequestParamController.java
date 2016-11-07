@@ -1,4 +1,4 @@
-package it.alfasoft.vahid.controller;
+package it.alfasoft.francesca.controller;
 
 import java.util.Map;
 
@@ -21,7 +21,7 @@ public class RegistrazioneFormRequestParamController {
 	}
 	
 	
-	// prendere parametri uno per uno 
+	// prende i parametri uno per uno 
 //	@RequestMapping(value="/registraCliente.html",method=RequestMethod.POST)
 //	public ModelAndView RegistraForm(@RequestParam("nome") String n,
 //			                         @RequestParam("cognome") String cgn,
@@ -35,7 +35,7 @@ public class RegistrazioneFormRequestParamController {
 //		return  model;
 //	}
 	
-	// prendere tutti parametri in una mappa
+	// prende tutti parametri che vengno passati e li mette in una mappa
 	@RequestMapping(value="/registraCliente.html",method=RequestMethod.POST)
 	public ModelAndView RegistraForm(@RequestParam Map<String,String> mappaParametri){
 		

@@ -16,7 +16,7 @@
 	
 <!--  <bean name="/welcome.html" class="controller.HelloController" /> -->
 
-<context:component-scan base-package="it.alfasoft.vahid.controller" />
+<context:component-scan base-package="it.alfasoft.francesca.controller" />
 
  <mvc:annotation-driven/>
  

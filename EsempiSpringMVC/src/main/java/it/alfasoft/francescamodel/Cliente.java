@@ -1,4 +1,4 @@
-package it.alfasoft.vahid.model;
+package it.alfasoft.francescamodel;
 
 import java.io.Serializable;
 import java.util.Date;
